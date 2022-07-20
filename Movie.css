@@ -25,6 +25,8 @@ margin-right:0px;
 
 #left{
     float:left;
+    width:250px;
+    height:500px;
 }
 
 #content_img {

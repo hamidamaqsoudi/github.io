@@ -4,9 +4,9 @@ body {
 }
 h1 {
     text-align: center;
-    text-shadow: -2px 2px; color:black;
+    text-shadow: -2px 2px gray; color:black;
 }
 #banner {
     position: absolute;
-    background-image: url("https://raw.githubusercontent.com/hamidamaqsoudi/github.io/main/img/banner.png")
+
 }

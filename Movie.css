@@ -2,8 +2,9 @@ body {
     background-image: url("https://raw.githubusercontent.com/hamidamaqsoudi/github.io/main/img/background.png");
     border-image-repeat:repeat;
 }
-h1{
-    color:indigo;
+h1 {
+    text-align: center;
+    text-shadow: -2px 2px; color:black;
 }
 #banner {
     position: absolute;

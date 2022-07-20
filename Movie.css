@@ -52,7 +52,7 @@ margin-right:0px;
 #content_container{
     width:25%;
     margin:5px;
-    position:absolute;
+    position:relative;
     padding:5px;
     color:antiquewhite;
     border-radius:8px;

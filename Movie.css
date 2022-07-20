@@ -17,9 +17,9 @@ margin-right:0px;
 
 }
 
-#divheader {
-    display: block;
-    background-image: url(https://raw.githubusercontent.com/hamidamaqsoudi/github.io/main/img/rbg.png);
+#divheader{
+    display:block;
+    background-image:url(https://raw.githubusercontent.com/hamidamaqsoudi/github.io/main/img/rbg.png);
     background-repeat: repeat-x;
 }
 
@@ -39,12 +39,11 @@ margin-right:0px;
 
 
 #container {
-    position:absolute;
+    position:relative;
     border-radius:15px;
     border: 5px solid gray;
     margin:auto;
     width:50px;
-   height:900px;
    width:700px;
    
 }
@@ -52,7 +51,7 @@ margin-right:0px;
 #content_container{
     width:25%;
     margin:5px;
-    position:relative;
+    position:float;
     padding:5px;
     color:antiquewhite;
     border-radius:8px;

@@ -9,15 +9,32 @@ h1 {
     text-align:center;
     margin-top:60px;
 }
-#banner {
+/*#banner {
 display:inline-block;
 width:100%;
 margin-left:0px;
 margin-right:0px;
 
+}*/
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#right{
+    float:right;
+}
+
+#content_img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 #container {
+    position:relative;
     border-radius:15px;
     border: 5px solid gray;
     margin:auto;

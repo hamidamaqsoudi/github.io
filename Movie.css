@@ -7,6 +7,7 @@ h1 {
     text-shadow: 2px 2px gray; 
     color:black;
     text-align:center;
+    margin-top:50px;
 }
 #banner {
     position: absolute;

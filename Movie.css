@@ -4,7 +4,9 @@ body {
 }
 h1 {
     text-align: center;
-    text-shadow: -2px 2px gray; color:black;
+    text-shadow: 2px 2px gray; 
+    color:black;
+    text-align:center;
 }
 #banner {
     position: absolute;

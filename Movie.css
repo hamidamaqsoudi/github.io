@@ -10,3 +10,10 @@ h1 {
     position: absolute;
 
 }
+
+#container {
+   align-content:center;
+   height:900px;
+   width:700px;
+   background-color:antiquewhite;
+}

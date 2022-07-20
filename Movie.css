@@ -10,16 +10,18 @@ h1 {
     margin-top:90px;
 }
 #banner {
-border-image-width:
+display:inline-block;
+width:100%;
+margin-left:0px;
+margin-right:0px;
 
 }
 
 #container {
   
-    border: 5px solid #FFFF00;
-    text-align: center;
-
-   align-content:center;
+    border: 5px solid gray;
+    margin:auto;
+    width:50px;
    height:900px;
    width:700px;
    

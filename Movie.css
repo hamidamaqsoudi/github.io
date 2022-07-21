@@ -147,3 +147,35 @@ margin-right:0px;
     text-shadow: 2px 2px gray;
     text-align: center;
 }
+
+#inputstyle{
+    width:50%;
+    padding-left:180px;
+    height:40px;
+}
+
+#button {
+    width: 150px;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    height: 70px;
+    background-color: #9C754F;
+    border-radius: 4px;
+    border: solid #9C754F;
+    margin-left:350px;
+    margin-top:20px;
+}
+
+
+#assignment {
+    width: 50%;
+    height: 50px;
+    padding-left:20px;
+    margin-left: 30px;
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: bold;
+    
+}

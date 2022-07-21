@@ -10,7 +10,7 @@
     <br />
     <br />
     <br />
-    <div id="container" style="border: 5px solid #9C754F ">
+    <div id="container" style="border: 5px solid #9C754F ; height:750px;">
 
         <div id="content_container" style="width: 95%; border: 5px solid #9C754F; ">
 
@@ -18,22 +18,64 @@
         </div>
 
         <form name="grades" action="https://mumstudents.org/params.php" method="get">
-            <div id="content_container" style="padding: 20px; border: 5px solid #9C754F">
+            <div id="content_container" style="padding: 20px; border: 5px solid #9C754F; width: 91%;">
 
-                <label id="labelid" style="font-size:20px; padding:10px;">Name:</label>
-                <!-- <div id="content_container" style="border: 5px solid #9C754F;"> -->
+                <label id="labelid" style="font-size:20px; padding:10px; ">Name:</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="name" id="inputstyle" />
 
-            
+
             </div>
 
-            <div id="content_container"style="padding: 20px; border: 5px solid #9C754F">
+            <div id="content_container" style="padding: 20px; border: 5px solid #9C754F; width: 91%;">
 
                 <label id="labelid" style="font-size:20px;">Student ID:</label>
-                <!-- <div id="content_container" style="border: 5px solid #9C754F;"> -->
+                &nbsp;
+                <input type="text" name="studentid" id="inputstyle" />
 
-                </div>
+            </div>
 
-            </form>
+            <div id="content_container" style="padding: 20px; border: 5px solid #9C754F; width: 91%;">
+
+                <label id="labelid" style="font-size:20px;">Choose the Assignment:</label>
+                &nbsp;&nbsp;&nbsp;
+                <select name="assignment" id="assignment">
+                    <option>Assignment01</option>
+                    <option>Assignment02</option>
+                    <option>Assignment03</option>
+                </select>
+
+
+            </div>
+
+            <div id="content_container" style="padding: 20px; border: 5px solid #9C754F; width: 91%;">
+
+
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Student" />
+                <label id="labelid" style="font-size:15px;">I am a Student</label>
+
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="teacher" />
+                <label id="labelid" style="font-size:15px;">I am a Teacher</label>
+
+
+            </div>
+
+            <div id="content_container" style="padding: 20px; border: 5px solid #9C754F; width: 91%;">
+
+                
+                <input type="checkbox" name=" checkbox" id=" checkbox" value="Checkbox">
+                <label id="labelid" style="font-size:15px;">By checking this checkbox, I agree that as Student I only will check my own marks.</label>
+
+
+            </div>
+
+
+            <button id="button">Submit</button>
+
+
+        </form>
         </div>
 
 

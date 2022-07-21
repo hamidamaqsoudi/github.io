@@ -1,0 +1,16 @@
+#divform {
+    width: 40%;
+    margin-top:100px;
+    margin-left: 500px;
+    margin-right: 200px;
+    background-color: #E6E6FA;
+    height:300px;
+    border-radius:5px;
+    
+}
+#pid{
+    font-family:Verdana;
+    font-size:10px;
+    font-weight:bold;
+    margin-left:20px;
+}

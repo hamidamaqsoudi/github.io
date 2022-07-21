@@ -2,7 +2,7 @@ body {
     background-image: url("https://raw.githubusercontent.com/hamidamaqsoudi/github.io/main/img/background.png");
     border-image-repeat:repeat;
 }
-h1 {
+#myh12 {
     text-align: center;
     text-shadow: 2px 2px gray; 
     color:black;
@@ -17,18 +17,42 @@ margin-right:0px;
 
 }
 
-#divheader{
-    display:block;
-    background-image:url(https://raw.githubusercontent.com/hamidamaqsoudi/github.io/main/img/rbg.png);
-    background-repeat: repeat-x;
+#myH1{
+    margin-top:30px;
+    margin-left:140px;
+    position:absolute;
+    font-size:30px;
+    color:red;
+    font-family:Verdana;
+}
+
+#divheader {
+    background-image: url(https://raw.githubusercontent.com/hamidamaqsoudi/github.io/main/img/rbg.png);
+    background-repeat: repeat;
+    
+}
+
+#rotten{
+    background-image:url();
+    display:float;
+    font-family:Verdana;
 }
 
 
 #left{
     display:inline-block;
     float:right;
+    margin-left:2px;
     width:250px;
     height:400px;
+}
+
+#divRightPanel{
+    width:250px;
+    height:468px;
+    float:right;
+    background-color:darkolivegreen;
+    margin-left:400px;
 }
 
 #content_img {
@@ -37,24 +61,81 @@ margin-right:0px;
     right: 0px;
 }
 
-
-#container {
-    position:relative;
-    border-radius:15px;
-    border: 5px solid gray;
-    margin:auto;
-    width:50px;
-   width:700px;
-   
+#footer {
+    background-color: darkolivegreen;
+    width:100%;
+    position:absolute;
+    text-align:center;
+    font-family:Verdana;
+    font-size:12px;
+    height:18px;
 }
 
-#content_container{
-    width:25%;
-    margin:5px;
-    position:float;
-    padding:5px;
-    color:antiquewhite;
-    border-radius:8px;
-    border:2px solid gray;
-    text-decoration-color:black;
+
+#container {
+    position: relative;
+    border-radius: 15px;
+    border: 5px solid gray;
+    margin: auto;
+    height:950px;
+    width: 800px;
+    font-family: Verdana;
+}
+
+#content_container {
+    width: 29%;
+    margin: 10px;
+    position: relative;
+    padding: 5px;
+    background-color:blanchedalmond;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-family: Verdana;
+    font-size:13px;
+}
+
+#content_containerright {
+    width: 29%;
+    margin-left: 278px;
+    margin-top: -115px;
+    position: absolute;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    border: 2px solid gray;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+#inblock {
+    margin-top:-5px;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 10px;
+    font-style:italic;
+}
+
+#labelid{
+    padding-top:20px;
+    margin-left:30px;
+    font-family:Verdana;
+    font-size:13px;
+    font-weight:bold;
+}
+
+#labelid2 {
+    font-family:Verdana;
+    margin-left: 60px;
+    font-family: Verdana;
+    font-size: 13px;
+    
+}
+#cssid {
+    
+    float: right;
+}
+
+#htmlid {
+    
+    float:right;
 }

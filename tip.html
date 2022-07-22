@@ -6,11 +6,11 @@ CSE 190M, Summer 2012
 This file is a tip calculator page using JavaScript.
 -->
 <script>
-function calcTip() {
-
-// Enter your code here to make Tip Calculator work
-
-}
+    function calcTip() {
+        let subT = parseFloat(document.getElementById("subtotal").value);
+        let t = parseFloat(document.getElementById("tip").value);
+        document.getElementById("total").innerHTML = Math.round(subT * (1 + (t / 100)) * 100) / 100;
+    }
 
 </script>
 <head>

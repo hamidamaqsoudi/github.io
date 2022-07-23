@@ -1,0 +1,45 @@
+
+body {
+    border: 2px blue solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    height: 300px;
+    width: 800px;
+}
+
+.container {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#header {
+    color: blue;
+    padding-left: 10px;
+}
+
+.box {
+    flex: 50%;
+    padding: 20px;
+}
+
+#task {
+    padding-right: 100px;
+    margin: 5px;
+}
+
+#btn1, #btn2 {
+    padding-left: 100px;
+    margin: 5px;
+    padding-right: 100px;
+}
+
+#tasks {
+    padding-left: 0px;
+    margin: 5px;
+}
+
+#valid {
+    float: right;
+}

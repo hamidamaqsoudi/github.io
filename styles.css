@@ -1,10 +1,10 @@
 
 body {
-    border: 2px blue solid;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px green solid;
+    font-family: Verdana;
     font-size: medium;
-    height: 300px;
-    width: 800px;
+    height: 400px;
+    width: 380px;
 }
 
 .container {

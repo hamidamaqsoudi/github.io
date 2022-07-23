@@ -4,7 +4,8 @@ body {
     font-family: Verdana;
     font-size: medium;
     height: 400px;
-    width: 380px;
+    width: 900px;
+    margin-left:200px;
 }
 
 .container {
@@ -14,10 +15,7 @@ body {
     align-items: flex-start;
 }
 
-#header {
-    color: blue;
-    padding-left: 10px;
-}
+
 
 .box {
     flex: 50%;
@@ -42,4 +40,10 @@ body {
 
 #valid {
     float: right;
+}
+
+
+#header {
+    color: green;
+    padding-left: 10px;
 }

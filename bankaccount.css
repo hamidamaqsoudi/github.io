@@ -1,9 +1,15 @@
+#mydiv{
+    height: 300px;
+    margin-left:80px;
+    width:800px;
+}
 textarea{
-    width:80%;
-
+    width:50%;
 }
 
 label{
     font-weight:bold;
-
+}
+button{
+    font-weight: bold;
 }

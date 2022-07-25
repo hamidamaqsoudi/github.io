@@ -24,7 +24,7 @@ class Account{
 function a(){
     let x = document.getElementById("accountName").value;
     let y = document.getElementById("deposit").value;
-    new Account(x, y)
+    new Account(x, y);
     document.getElementById("fSet").value = Account.accountinfoList.map(a => a.addtoinfo()).join("");
 }
 

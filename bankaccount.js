@@ -17,29 +17,23 @@ class Account{
         " - Balance: " + this.#deposit+"\r\n";
     }
 
-
-
 }
+
+Account.accountinfoList.forEach
+(account => console.log(account.addtoinfo()));
 
 function a(){
     let x = document.getElementById("accountName").value;
     let y = document.getElementById("deposit").value;
     new Account(x, y);
-    document.getElementById("fSet").value = Account.accountinfoList.map(a => a.addtoinfo()).join("");
+    document.getElementById("fSet").value = 
+    Account.accountinfoList.map(a => a.addtoinfo()).join("");
 }
 
 
-// a = new Account("Checking",10000);
-// b = new Account("Saving", 2000);
-// c = new Account("Business",5000);
 
 
-// console.log(b.addtoinfo());
-// console.log(a.addtoinfo());
 
-
-Account.accountinfoList.forEach
-(account => console.log(account.addtoinfo()));
 
 
 

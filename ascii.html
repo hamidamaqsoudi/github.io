@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS472: ASCII Animation Viewer</title>
+    <link rel="stylesheet" href="ascii.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ascii.js" async></script>
+    <script src="animation.js" async></script>
+    
+</head>
+<body>
+    
+    <div id="container">
+        <h1 id="heading1">CS472: ASCII Animation Viewer)</h1>
+
+        <textarea cols="5" id="txtArea">
+
+        </textarea>
+
+        <fieldset style="margin-left: 37px;" id="fControl" >
+            <legend>Play controls:</legend>
+            <input type="button" value="Start" id="Start">
+            <input type="button" value="Stop" id="Stop">
+        </fieldset>
+
+
+        <fieldset id="fControl">
+            <legend>Animation:</legend>
+            <select>
+                <option >Blank</option>
+                <option >Bike</option>
+                <option >Exercise</option>
+            </select>
+            
+            
+        </fieldset>
+
+        <fieldset id="fControl">
+            <legend>Size:</legend>
+            <select>
+                <option >Tiny</option>
+                <option >Small</option>
+                <option >Medium</option>
+                <option >Larg</option>
+                <option >Extra Larg</option>
+                <option >XXL</option>
+            </select>
+        </fieldset>
+
+        <fieldset id="fControl">
+            <legend>Speed:</legend>
+            <input type="checkbox" id="checkbox" >
+            <label>Turbo</label>
+        </fieldset>
+
+    </div>
+
+</body>
+</html>

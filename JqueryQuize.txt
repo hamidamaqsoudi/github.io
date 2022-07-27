@@ -1,0 +1,6 @@
+1.	When the jQuery function is invoked with a CSS selector, it will return a jQuery object wrapping any element(s) 
+	that match this selector. Jquery object doen't represnet the DOM object.
+
+2.	$(document).ready(() => $("div h1").css("background-color", "red"));
+
+3.	$(document).ready(() => $("p").append("<p> Yes!!</p>"));

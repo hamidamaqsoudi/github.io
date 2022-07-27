@@ -1,0 +1,26 @@
+#container{
+    padding: 10px;
+    width:50%;
+    background-color:#D8BFD8;
+    margin-left:400px;
+}
+#heading1{
+    font-family: verdana;
+    text-align: center;
+    font-size:30px;
+
+}
+textarea{
+    width:90%;
+    height: 300px;
+    margin-left: 40px;
+
+}
+
+#fControl{
+    border:2px solid;
+    width:18%;
+    margin-left: 10px;
+    display:inline;
+}
+

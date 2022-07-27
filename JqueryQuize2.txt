@@ -1,0 +1,12 @@
+1.	All the above 3 codes are equivalent and work the same. The only difference is arguments.
+		1st has 2 arguments 'e' is the element and 'idx' is the index of the element.
+		2nd have 0 arguments, and 'this' represents the current element.
+		3rd has 1 argument 'idx' is the index of the element and 'this' represents the current element.
+
+2.	$(document).ready(function(){
+		$("div ul").css('color','blue')
+	});
+
+3.	$(document).ready(function(){
+		$("body").append("<div><h1>JQuery Core</h1></div>")
+	});

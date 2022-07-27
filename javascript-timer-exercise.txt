@@ -1,58 +1,23 @@
-Javascript Timer Exercise
+1.	(setTimeout(booyah, 2000)) -----> will call the "booyah" function after 2 seconds. As, we are passing function name only.
 
-        1. What is the difference between the following 2 statements?
-        setTimeout(booyah, 2000);
-        setTimeout(booyah(), 2000);
+	(setTimeout(booyah(), 2000))----> will call the "booyah" function immediately, rather than waiting 2 seconds. 
+						    As, we are calling the function using '()'.
 
-        [Answer]
-        setTimeout(booyah, 2000); // -> boolah is going to be called after 2000 ms
-        setTimeout(booyah(), 2000); // -> boolah will be called imediately
+2.	Both alert functions will display "6".
+	First alert, we are passing the x var refrence and x is calling a function.
+	Second alert, we are calling y var and y is refrence of a function or in other words y is a function.
 
-        ----------
-        2. What do the following 2 alerts display (answer without running the code)?
-        var myfunc = function(a, x) {
-            return a * x;
-        };
-        var x = myfunc(2, 3);
-        var y = myfunc;
-        alert(x);
-        alert(y(2,3));
 
-        [Answer]
-        6
-        6
+3.	function booyah1(){
+		alert("BOOYAH!");
+	}
+	function booyah2(){
+		return ()=>alert("BOOYAH!");
+	}
 
-        ----------
-        3. Write functions booyah1 and booyah2 so that in both cases below, an alert box comes up after 2 seconds that
-        says “BOOYAH!”
-        setTimeout(booyah1, 2000);
-        setTimeout(booyah2(), 2000);
-
-        [Answer]
-        function booyah1(){
-            alert("BOOYAH!");
-        }
-
-        function booyah2(){
-            return function(){
-                alert("BOOYAH!");
-            };
-        }
-
-        ----------
-        4. What is "Unobtrusive Javascript"? What is the practical application of Unobtrusive Javascript (and the reasons
-        for using it)?
-        
-        [Answer]
-        > What is "Unobtrusive Javascript"?: 
-        Writing javascript as a completely separate file. 
-
-        > What is the practical application of Unobtrusive Javascript (and the reasons for using it)?
-        No JS code inside HTML. (even no function call inside button tag, such as onclick)
-
-        Main reason is the sepration of concerns:
-            - content (html)
-            - presentation (css)
-            - behavior (js)
-
+4.	Unobtrusive Javascript is a way to write the javascript code. According to the principles of unobtrusive javascript, JavaScript code should be separate from HTML.
+	Below are the key features behind writing the javascript code in an unobtrusive way:
+	1. It's separate the code in 3 major categories HTML (UI/Content) , CSS (styling/Presentation) , JavaScript (logic/Behavior).
+	2. Fast loading, as some of the old browsers don't support JS then at least HTML and CSS will load.
+	3. Robustness, It's easy to maintain. Multiple developers can update, debug the respective pages separately.
     

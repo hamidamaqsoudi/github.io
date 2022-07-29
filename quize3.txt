@@ -1,0 +1,18 @@
+1.	$(document).ready(function(){
+	  $("span").css("color", "black");
+	});
+
+2.	$(document).rady(function(){
+	  $(".level-2").children().css("background-color", "red")
+	  $(".level-3").children().css("background-color", "tan")	
+	});
+
+3.	$(document).ready(function(){
+		$(".third-item").prev().css("background-color", "blue")
+	});
+
+4.	$(".turkey").replaceWith("<li class='mash_potato'><em>Mashed Potatoes</em></li>");
+
+5.	$(document).ready(function() {
+	  $("span").parentsUntil("div").css("color", "green")
+	});

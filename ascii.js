@@ -26,6 +26,9 @@ document.getElementById('size').onchange = function () {
 
 }
 
+var x = document.querySelector("window.h6");
+console.log(window);
+
 document.getElementById('animation').onchange = function () {
     stop();
     textarea.value = "";

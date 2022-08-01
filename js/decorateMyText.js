@@ -1,4 +1,4 @@
-window. onload = function() {
+window.onload = function() {
   document. querySelector("#bigDecoration"). addEventListener("click", increaseFontReguraly);
   document. querySelector("#bling"). addEventListener("change", decTextArea);
 }

@@ -11,8 +11,8 @@
     "pug": "^3.0.2"
   },
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node Dictionary",
+    "dev": "nodemon Dictionary"
   },
   "repository": {
     "type": "git",
